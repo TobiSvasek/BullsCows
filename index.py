@@ -58,7 +58,7 @@ def main():
     while guess_log[-1] != answer:
         guess_log = get_guess(guess_log)
         cow, bull = compare(guess_log[-1], answer)
-        print('{} niggers, {} chiggas'.format(cow, bull))
+        print('{} cows, {} bulls'.format(cow, bull))
     print('Correct! After {} guess(es) you finally got it!\nYour logs:'.format(len(guess_log) - 1),
           guess_log[1:])
 
