@@ -11,7 +11,7 @@ def initiation():
 
     print('Welcome to the Cows and Bulls Game!')
     print('--' * 20)
-    print('I have generated a random 4 digit number \nfor you. Lets play Cows and Bulls!')
+    print('I have generated a random 4 digit number \nfor you. Lets play Bulls and Cows!')
     print('--' * 20)
     guess_log = ['']
     answer = random.randint(0, 9999)
